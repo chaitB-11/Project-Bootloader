@@ -1,0 +1,39 @@
+                                              |
+Power ON
+   |
+   v
+Bootloader Starts
+   |
+   +--> Check Update Request?
+            |
+       Yes / No
+        |      |
+        |      +----> Jump to Existing Application
+        |
+        v
+Receive New Firmware
+        |
+        v
+Verify Security
+(CRC / SHA / Signature)
+        |
+   Valid ? 
+   |      |
+  Yes     No
+   |        |
+   |     Reject Update
+   |        |
+   v        v
+Store Firmware in Flash
+        |
+        v
+Update Successful?
+   |            |
+  Yes           No
+   |             |
+   v             v
+Switch to New    Rollback to
+Application      Previous Firmware
+        |
+        v
+Run Main Application 
