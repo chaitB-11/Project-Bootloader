@@ -1,0 +1,52 @@
+When the device powers ON, the bootloader starts first instead of the main application.The bootloader checks whether a new firmware update is available through communication interfaces like UART or CAN.
+The bootloader checks whether a new firmware update is available through communication interfaces like UART or CAN.
+If a new update is available:
+                               1.The bootloader receives the new firmware file from PC/server.
+                               2.It stores the firmware temporarily in flash memory.
+                               3.The system verifies whether the firmware is valid using CRC or SHA checksum.
+                               4.If verification is successful, the old application is replaced with the new firmware.
+                              5.The bootloader then jumps to the updated application and runs it.
+
+If the update fails or firmware gets corrupted:
+                                               1.The rollback mechanism restores the previous working firmware.
+                                               2.This prevents the device from becoming dead or unusable.
+
+This project improves:
+                     1.Firmware security
+                     2.Device reliability
+                     3.Safe remote updates
+                    4.Recovery
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
