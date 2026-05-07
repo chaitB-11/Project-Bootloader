@@ -1,0 +1,52 @@
+Applications :
+                1.Automotive Systems
+                - Used in ECUs, infotainment systems, and vehicle control modules for safe firmware updates using CAN protocol.
+
+                 2.IoT Devices
+                  -Enables remote firmware updates (OTA updates) for smart home and industrial IoT devices
+
+                 3.Industrial Automation
+                  -Used in PLCs, motor controllers, and industrial controllers where secure and reliable updates are required.
+
+                 4.Medical Devices
+                 -Helps update medical equipment firmware securely without replacing hardware.
+
+                 5.Consumer Electronics
+                  -Used in smart TVs, routers, wearable devices, and home automation products.
+
+                 6.Smart Metering Systems
+                   -Allows utility companies to remotely update electricity/water meter firmware securely.
+       
+                 7.Aerospace & Defense Systems
+                   -Ensures secure firmware upgrades with reliability and recovery mechanisms.
+ 
+                  8.Embedded Linux Devices
+                    -Used in gateways and embedded boards for safe boot and application update process.
+
+                  9.Robotics Systems
+                   -Supports software upgrades in robotic controllers and autonomous systems.
+      
+                  10.Telecommunication Devices
+                     -Used in network equipment and communication modules for remote maintenance and bug fixes. -
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
