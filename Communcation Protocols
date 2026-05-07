@@ -1,0 +1,33 @@
+Developed a secure custom bootloader for embedded systems that performs safe firmware updates using UART/CAN communication.
+Implemented flash programming, CRC-based integrity checking, and rollback recovery mechanism to ensure reliable and secure software updates without device failure.
+
+Protocols used in the project :  
+                               1.UART (Universal Asynchronous Receiver Transmitter) Used for serial communication between PC and microcontroller.
+                                -Helps transfer firmware update files.Simple and low-cost communication protocol.
+
+                              2. CAN Protocol (Controller Area Network) Used for reliable communication in automotive and industrial systems.
+                                 -Supports error detection and message priority.
+                                -Useful when multiple devices are connected on the same network.
+                               
+                              3. SPI / I2C Used for communicating with external flash memory or sensors.
+                                -Helps store firmware externally if required.
+
+                              4. CRC (Cyclic Redundancy Check) Used to check whether received firmware data is corrupted.
+                              -Ensures data integrity during transfer.
+
+                              5. SHA / AES (Security Protocols) SHA verifies firmware authenticity.
+                                -AES encryption protects firmware from unauthorized access or tampering
+
+
+
+
+
+
+
+
+
+
+
+
+
+
